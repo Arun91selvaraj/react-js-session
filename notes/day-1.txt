@@ -62,6 +62,59 @@ Ryan Dahl
 	b. constructor function syntax
 	c. class keyword
 
+compilation and execution of JS:
+
+global scope or function
+other functions
+
+execution context is created whenever a function is called (global or any other function)
+contains 3 properties: variable object (vo), this and scope
+
+a. preparation (compilation) stage:
+	only variable and function "declarations" are taken care of
+	variables of a function are hoisted
+	function "declarations" are hosited
+	function "expressions" are NOT hoisted
+	hence, expression function can't be called before the expression
+	hence, declared functions can be called before declaration
+b. execution stage
+
+function add(a,b){
+	this.x = 100
+	var r = a+b
+	return r
+}
+var res = new add(12,13)
+console.log(res)
+
+add() => the method is contextually bound to the default object (window/global) or none at all if strict mode is on (this => window/global)
+new add() => the method is contextually bound to the new object (this => new object)
+obj-ref.add() => the method is contextually bound to that object (this => object)
+
+var globalValue = 50
+function outer1(){
+	var a =100
+	function outer2(){
+		var b = 200
+		funcion innerMost(){
+			var c = 300
+			clg(a+b+c+globalValue)
+		}
+	}
+}
+
+closure: maintaining the lexical state of outer scopes for an inner function
+
+new features of JS:
+let and const keyword
+arrow function
+string interpolation/templated string
+spread operator
+rest operator
+object destructuring
+class, constructor, super, extends keywords
+.....
+
 
 
 

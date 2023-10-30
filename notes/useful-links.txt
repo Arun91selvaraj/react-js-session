@@ -1,0 +1,6 @@
+https://www.freecodecamp.org/news/how-javascript-works-behind-the-scene-javascript-execution-context/#:~:text=When%20the%20JavaScript%20engine%20scans,for%20the%20variables%20and%20functions
+
+https://medium.com/@happymishra66/execution-context-in-javascript-319dd72e8e2c
+
+https://developer.mozilla.org/en-US/docs/Web/JavaScript
+https://javascript.info/
