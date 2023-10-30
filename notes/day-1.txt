@@ -41,5 +41,28 @@ text-align:center
 
 	browser>outline>inline
 
+JavaScript:
+
+	JS Engines:
+	chrome: V8
+	safari: JSCore
+	firefox: spidermonkey
+
+	features:
+	a. it is loosely typed language
+
+Ryan Dahl
+
+	data types:
+	string, number, boolean, object, function
+	undefined, NULL, Infinity, NaN
+
+	techniques to create object in JS: 
+	a. object-literal syntax
+	b. constructor function syntax
+	c. class keyword
+
+
+
 
 
