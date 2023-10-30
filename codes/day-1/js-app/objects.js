@@ -25,3 +25,20 @@ obj['sayHi'] = function () {
 }
 
 console.log(obj)
+
+//2. constuctor function
+function person(name, id, salary) {
+    var info = ''
+    this.personName = name
+    this.personId = id
+    this.personSalary = salary
+    this.show = function () {
+        return this.name + ' ' + this.id + ' ' + this.salary
+    }
+}
+
+var anilObjRef = new person('anil', 1, 1000)
+console.log(anilObjRef.name)
+console.log(anilObjRef['salary'])
+console.log(anilObjRef.show())
+
