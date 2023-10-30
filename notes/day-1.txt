@@ -1,0 +1,45 @@
+https://github.com/joydip-git/Verizon-reactjs-30thoct2023
+
+React JS learning curve:
+HTML, CSS
+JavaScript and/or TypeScript
+Node JS (introductory idea)
+
+Cascading Style Sheet:
+
+propname:value
+text-align:center
+
+1. in-line style:
+	<element style="">content</element>
+
+2. out-line style
+	a. in the same HTML file using <style> in either <head> or <body> elements
+	b. outside the HTML file, using separate CSS file. Link the CSS file with HTML file using <link> tag in <head> or <body> elements
+
+	i. element selector
+		element-name1, element-name2,....{
+			css-prop-name: value,
+			...............
+		}
+
+	ii. id selector
+		#element-id1, #element-id2,....{
+			css-prop-name: value,
+			...............
+		}
+	iii. class selector
+	.css-class-name{
+		css-prop-name: value,
+			...............
+	}
+	design:
+	<element class="css-class-name">content</element>
+
+	precedence: (cascading effect)
+	lowest>highest
+
+	browser>outline>inline
+
+
+
