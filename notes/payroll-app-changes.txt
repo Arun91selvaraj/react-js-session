@@ -1,0 +1,6 @@
+Employee: name, id, basic, da, hra, totalsalary
+				calculateSalary
+Developer: name, id, basic, da, hra, incentive, totalsalary
+			   calculateSalary
+Hr: name, id, basic, da, hra, gratuity, totalsalary
+			   calculateSalary
