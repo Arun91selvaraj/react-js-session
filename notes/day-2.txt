@@ -64,6 +64,9 @@ day-2 topics:
 13. DOM (Document Object Model)
 14. modules in JS
 15. application development
-16. TypeScript
+
+16. TypeScript:
+	a. data typification
+	b. static type checking
 	
 
