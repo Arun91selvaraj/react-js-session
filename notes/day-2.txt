@@ -1,0 +1,69 @@
+day-1 topic revision:
+1. data types: string, boolean, number, object and function
+	* : undefined
+	**: NaN, Infinity, NULL
+2. control flow statements
+3. operators
+
+4. array
+	 - push, unshift, splice, slice etc. methods and length property
+	 - filter, sort, map, foreach, find, findIndex (works on callback mechanism)
+	 - iteration: 
+			a. for...in loop (helps you access index positions), 
+			b. for...of loop (helps you access elements) and 
+			c. for loop (helps you access elements through index positions)
+
+5. callback
+	- passing a function as an argument to another function and then call the passed function from the function where you passed
+
+6. objects
+	- how to create objects: object-literal syntax, constructor function syntax and class syntax
+	- attributes/properties: value and functional property
+	- access properties of objects: using dot operator and indexer
+
+7. JS compilation and execution:
+	a. prepartion stage: all variable and function declarations are hoisted.	
+		*: function expressions are NOT hoisted
+	b. execution stage: all assignments and function calls are taken care of
+
+8. Objects for a function:
+	a. function execution context (FEC) object: 
+		- created when a function is invoked. 
+		- contains majorly 3 properties:
+ 
+			i. variable object: reference of another object containing all local variables (declared with var, let and const keywords) and their values
+			*: during the preparation stage, all these local variables will be assigned to "undefined" and actual value will be assigned to during execution stage
+
+			ii. this: reference to another object which stores "this" (object data - properties written/declared with this keyword)
+			*: by default any function, when invoked, gets linked to an object through "this" property of the FEC object (if the code is written in strict mode, that will not happen), if the function is NOT called with "new" kewyord
+			**: if the function is called with new keyword, then the function's context object gets linked with that new object
+			***: if the function is called with any reference variable, then the function gets linked with that object
+
+			iii. scope: reference to an array, containing copy of all local variables and their values from all outer scopes
+
+9. closure: for an inner function, JS runtime maintains copy of all local variables and their values from all outer scopes. maintaining the state of those lexical environments is known as "Closure"
+
+10. functions:
+	- declataion syntax
+	- expression syntax
+	*: function expressions can't be called before the exoression itself (As the function expressions are never hoisted), whereas, function declarations can be called before the declarations (since function declarartions are hoisted)
+
+day-2 topics:
+11. new features in JS:
+		ES6: 
+		a. let: helps you declare scoped local variable
+			const: helps you declare a local variable, which can't be re-assigned
+		b. class, constructor, super, extends keywords
+		c. spread and rest operators
+		d. object destructuring
+		e. arrow function
+		f. templated string
+		etc.
+12. asynchronity in JS
+		promise object
+13. DOM (Document Object Model)
+14. modules in JS
+15. application development
+16. TypeScript
+	
+
